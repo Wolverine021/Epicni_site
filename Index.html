@@ -145,15 +145,38 @@
 
     <button type="button" onclick="myFunction()">Što?</button>
 
-    <script>
-      function myFunction() {
-        document.getElementById("appolo").innerHTML = "Decu !";
-      }
-    </script>
+    <hr />
+
+    <h3>Unesi kitovne podatke:</h3>
+    <br />
+
+    <form>
+      <label for="kita">Veličina:</label>
+      <input type="number" id="kita" placeholder="Unesi broj" required />
+      <label for="ime">Tvoje ime:</label>
+      <input type="text" id="ime" placeholder="Unesi ime" required />
+      <input type="submit" value="Unesi" onclick="funk(event)" />
+    </form>
+
+    <p id="poruka"></p>
 
     <hr />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
     
-
-
   </body>
 </html>
