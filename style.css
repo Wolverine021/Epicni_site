@@ -99,7 +99,7 @@ form {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   width: 350px;
-  margin: 0 auto; /* Centers horizontally */
+  margin: 0 auto;
 }
 label {
   margin-bottom: 8px;
